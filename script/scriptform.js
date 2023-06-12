@@ -126,7 +126,7 @@ function validar_telefono() {
         div.className = "text-danger";
         return false;
     } else {
-        if (telefono != 9 ) {
+        if (telefono.length != 9 ) {
             div.innerText="El teléfono debe de tener 9 dígitos"
             div.className="text-danger";
             return false;
